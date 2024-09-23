@@ -1,3 +1,4 @@
+// 210 - Lab 14 - Leah Balakrishnan
 #include <iostream>
 
 using namespace std;
@@ -51,4 +52,17 @@ int main() {
     Color num3(0, 255, 0); // For green
     Color num4(0, 0, 255); // For blue
     
-
+    // Next, we have to populate num1, while using the setters from the above part
+    num1.setRed(128);
+    num1.setGreen(128);
+    num1.setBlue(128);
+    
+    // Lastly we must present the objects of Color with the print statement in line 42
+    cout << "***** Objects for Color *****" << endl;
+    num1.print();
+    num2.print();
+    num3.print();
+    num4.print();
+    
+    return 0;
+}
